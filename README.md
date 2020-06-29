@@ -6,7 +6,10 @@ A function f(X) is invariant to the permutation of instances in X iff it can be 
 - a neural net \rho(.) on top of summation of the transform \phi(x) applied to each component in a set
 ```
 * 06/28/2020 [MA-DNN](https://arxiv.org/pdf/1907.04667.pdf)
-
+```
+we create two external memory vectors for each user, memorizing high-level abstractions of what a user possibly likes and dislikes. 
+The proposed MA-DNN achieves a good compromise between DNN and RNN. It is as simple as DNN, but has certain ability to exploit useful information contained in users’ historical behaviors as RNN.
+```
 Queue:
 [MOE](https://arxiv.org/abs/1701.06538)
 [ExplorationStrategiesInDL](https://lilianweng.github.io/lil-log/2020/06/07/exploration-strategies-in-deep-reinforcement-learning.html)
