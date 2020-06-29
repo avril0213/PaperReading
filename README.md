@@ -9,6 +9,7 @@ A function f(X) is invariant to the permutation of instances in X iff it can be 
 ```
 we create two external memory vectors for each user, memorizing high-level abstractions of what a user possibly likes and dislikes. 
 The proposed MA-DNN achieves a good compromise between DNN and RNN. It is as simple as DNN, but has certain ability to exploit useful information contained in users’ historical behaviors as RNN.
+Learn two user-level embeddings for label 0/1 separately, feed into dense together with other groups' embedding vectors. Pose an additional L2 loss to force the two embeddings close to last layer of DNN. This loss only updates the two embeddings(last layer only updated in cross-entropy loss).
 ```
 Queue:
 [MOE](https://arxiv.org/abs/1701.06538)
