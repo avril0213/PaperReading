@@ -17,6 +17,7 @@ Queue:
 [RoBERTa](https://arxiv.org/abs/1907.11692)
 [FaceNet](https://arxiv.org/abs/1503.03832)
 [IntegratedGradient](https://arxiv.org/abs/1703.01365)
+[VideoBERT](https://arxiv.org/abs/1904.01766)
 
 # System
 * Pinterest Engineering [Blog](https://medium.com/@Pinterest_Engineering/the-top-pinterest-engineering-blog-posts-of-2019-51a3bef4a816)
