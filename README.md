@@ -7,10 +7,16 @@ A function f(X) is invariant to the permutation of instances in X iff it can be 
 ```
 * 06/28/2020 [MA-DNN](https://arxiv.org/pdf/1907.04667.pdf)
 
+Queue:
+[MOE](https://arxiv.org/abs/1701.06538)
+[ExplorationStrategiesInDL](https://lilianweng.github.io/lil-log/2020/06/07/exploration-strategies-in-deep-reinforcement-learning.html)
+[RoBERTa](https://arxiv.org/abs/1907.11692)
+[FaceNet](https://arxiv.org/abs/1503.03832)
+[IntegratedGradient](https://arxiv.org/abs/1703.01365)
 
 # System
 * Pinterest Engineering [Blog](https://medium.com/@Pinterest_Engineering/the-top-pinterest-engineering-blog-posts-of-2019-51a3bef4a816)
-
+* Lil's [Blog](https://lilianweng.github.io/lil-log/)
 
 
 # Coding
