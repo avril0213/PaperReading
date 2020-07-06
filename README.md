@@ -11,6 +11,17 @@ we create two external memory vectors for each user, memorizing high-level abstr
 The proposed MA-DNN achieves a good compromise between DNN and RNN. It is as simple as DNN, but has certain ability to exploit useful information contained in users’ historical behaviors as RNN.
 Learn two user-level embeddings for label 0/1 separately, feed into dense together with other groups' embedding vectors. Pose an additional L2 loss to force the two embeddings close to last layer of DNN. This loss only updates the two embeddings(last layer only updated in cross-entropy loss).
 ```
+* 07/06/2020 [MoSE](https://research.google/pubs/pub49274/)
+```
+Recently, using neural sequence models to effectively represent users’ activity streams has become popular in web applications.
+The work in [3](https://research.google/pubs/pub46488/) studies how to effectively use context features(such as device) for recommending videos in Youtube. It uses LSTM to represent a user’s video watch history. 
+[30](https://www.ismll.uni-hildesheim.de/pub/pdfs/RendleFreudenthaler2010-FPMC.pdf) is a personalized sequential recommendation model based on Markov chains. 
+[39] applies a Recurrent Neural Network (RNN) for next basket recommendation.(https://cseweb.ucsd.edu/classes/fa17/cse291-b/reading/A%20Dynamic%20Recurrent%20Model%20for%20Next%20Basket%20Recommendation.pdf)
+[33](https://arxiv.org/abs/1902.08588) uses RNN and Attention to model both short and long range dependencies in user sequences. 
+[17](https://arxiv.org/abs/1808.09781) proposes a self-attention based sequential model for next item recommendation[13] shows that RNN can learn multiple user dynamics patterns in individual recommendation sessions.
+```
+* 07/06/2020 [Deep Learning for Sequential Recommendation](https://arxiv.org/pdf/1905.01997.pdf)
+
 Queue:
 [MOE](https://arxiv.org/abs/1701.06538)
 [ExplorationStrategiesInDL](https://lilianweng.github.io/lil-log/2020/06/07/exploration-strategies-in-deep-reinforcement-learning.html)
