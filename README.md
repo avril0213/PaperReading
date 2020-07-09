@@ -22,6 +22,13 @@ The work in [3](https://research.google/pubs/pub46488/) studies how to effective
 ```
 * 07/06/2020 [Deep Learning for Sequential Recommendation](https://arxiv.org/pdf/1905.01997.pdf)
 
+* 07/09/2020 [SimGNN](https://arxiv.org/pdf/1808.05689.pdf)
+```
+Use GCN + global context-aware attention (learn an adaptable/learnable context vector) to learn the graph embedding(hi, hj).
+To calculate similarity of two embedding, it uses a "neural tensor network" which is like Factorization Machine.
+The second strategy is a pairwise interaction between nodes and the histogram provides information for learning the first part. The second part id not differentiable.
+```
+
 Queue:
 [MOE](https://arxiv.org/abs/1701.06538)
 
@@ -35,7 +42,7 @@ Queue:
 
 [VideoBERT](https://arxiv.org/abs/1904.01766)
 
-[SimGNN](http://web.cs.ucla.edu/~yzsun/papers/2019_WSDM_SimGNN.pdf)
+
 
 # System
 * Pinterest Engineering [Blog](https://medium.com/@Pinterest_Engineering/the-top-pinterest-engineering-blog-posts-of-2019-51a3bef4a816)
