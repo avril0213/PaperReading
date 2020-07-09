@@ -1,5 +1,7 @@
 # Coding
 * Eat TF in 30 days [Book](https://github.com/lyhue1991/eat_tensorflow2_in_30_days)
+* Deep learning with PyTorch (local pdf)
+* Python [Code style guideline](https://www.python.org/dev/peps/pep-0008/)
 * [Python Cheatsheet](https://gto76.github.io/python-cheatsheet/)
 * Memory management: [C++ ownership semantics](http://ericlavesson.blogspot.com/2013/03/c-ownership-semantics.html), [RAII-idiom](https://en.wikipedia.org/wiki/Resource_acquisition_is_initialization), [std::lock_guard](https://en.cppreference.com/w/cpp/thread/lock_guard)
 ```
