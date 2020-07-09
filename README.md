@@ -24,11 +24,18 @@ The work in [3](https://research.google/pubs/pub46488/) studies how to effective
 
 Queue:
 [MOE](https://arxiv.org/abs/1701.06538)
+
 [ExplorationStrategiesInDL](https://lilianweng.github.io/lil-log/2020/06/07/exploration-strategies-in-deep-reinforcement-learning.html)
+
 [RoBERTa](https://arxiv.org/abs/1907.11692)
+
 [FaceNet](https://arxiv.org/abs/1503.03832)
+
 [IntegratedGradient](https://arxiv.org/abs/1703.01365)
+
 [VideoBERT](https://arxiv.org/abs/1904.01766)
+
+[SimGNN](http://web.cs.ucla.edu/~yzsun/papers/2019_WSDM_SimGNN.pdf)
 
 # System
 * Pinterest Engineering [Blog](https://medium.com/@Pinterest_Engineering/the-top-pinterest-engineering-blog-posts-of-2019-51a3bef4a816)
