@@ -11,6 +11,10 @@ def format_attributes(**attributes):
 ```
 That ** operator will allow our format_attributes function to accept any number of keyword arguments. The given arguments will be stored in a dictionary called attributes.
 
+When defining a new function, stop to think about which arguments should always be specified as keyword arguments when calling your function. Consider using the * operator to require those arguments be specified as keyword arguments.
+
+And remember that you can accept arbitrary keyword arguments to the functions you define and pass arbitrary keyword arguments to the functions you call by using the ** operator.
+
 * Python 3's f-Strings: [f-String (fast)](https://realpython.com/python-f-strings/)
 ```
 >>> def to_lowercase(input):
