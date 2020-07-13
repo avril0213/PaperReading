@@ -29,7 +29,14 @@ To calculate similarity of two embedding, it uses a "neural tensor network" whic
 The second strategy is a pairwise interaction between nodes and the histogram provides information for learning the first part. The second part id not differentiable.
 ```
 
+* 07/12/2020 [MOBIUS: Query-Ad Matching in Baidu](http://research.baidu.com/Public/uploads/5d12eca098d40.pdf)
+```
+Mobius-v1 turns objective into CPM based maximization under the constraint of relevance score. Further decomposed to CTR*Bid. Then need accurately estimate CTR (Fast CTR).
+Reuse CTR model in ranking as teacher, solve the issue of larger bias on tail ads by augmenting the train samples by getting Relevance-Judged(use existing model) high-CTR low-Relevance sample and used as bad case in training. Compared with using only click/nonclick data in training, this helps improving generalization on CTR prediction for billions of query-ad pairs in the tail(the neural click model (student) can actively query the relevance model (teacher) for labels. This type of iterative supervised learning is known as active learning). Predict pr(Click)/Pr(unclick)/Pr(bad) by learning three pairs of embeddings. Result shows AUC loss but Relevance & CTR & CPM increase.
+```
+
 Queue:
+
 [MOE](https://arxiv.org/abs/1701.06538)
 
 [ExplorationStrategiesInDL](https://lilianweng.github.io/lil-log/2020/06/07/exploration-strategies-in-deep-reinforcement-learning.html)
