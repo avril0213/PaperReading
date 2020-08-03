@@ -39,6 +39,19 @@ Reuse CTR model in ranking as teacher, solve the issue of larger bias on tail ad
 ```
 ```
 
+* 08/03/2020 [BST](https://arxiv.org/pdf/1905.06874.pdf)
+```
+```
+
+* 08/03/2020 [BERT4REC](https://arxiv.org/pdf/1904.06690.pdf)
+```
+```
+
+* 08/03/2020 [CD-CNN](https://arxiv.org/abs/1804.09901)
+```
+An interesting paper about cross-domain co-training. Dimentionality balancing mechanism for knowledge fusion. How to apply cross-domain data fusion with three training steps: domain separated pre-training, domain crossed co-training, and supervised finetuning.
+```
+
 Queue:
 
 [MOE](https://arxiv.org/abs/1701.06538)
