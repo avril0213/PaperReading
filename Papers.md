@@ -52,6 +52,15 @@ Reuse CTR model in ranking as teacher, solve the issue of larger bias on tail ad
 An interesting paper about cross-domain co-training. Dimentionality balancing mechanism for knowledge fusion. How to apply cross-domain data fusion with three training steps: domain separated pre-training, domain crossed co-training, and supervised finetuning.
 ```
 
+* 08/11/2020 [Learning and Transferring IDs Representation in E-Commerce](https://arxiv.org/pdf/1712.08289.pdf)
+```
+Compared to Word2Vec, Item2Vec is simply learning embeddings for co-occurent item ids. SGNS: skip-gram with negative sampling.
+This paper: embed all types of ids into one semantic space. We explore both users’ interactive sequences on item IDs and the structural connections among
+different types of IDs.
+
+
+```
+
 Queue:
 
 [MOE](https://arxiv.org/abs/1701.06538)
